@@ -1,0 +1,47 @@
+label {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 600px;
+    height: 250px;
+    background-color: seashell;
+    margin: 0 auto;
+}
+
+.authorizationForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.authorizationForm * {
+    margin-bottom: 10px;
+}
+
+.help {
+    color: red;
+}
+
+.registered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.registered * {
+    margin-bottom: 10px;
+}
+
+.signed-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signed-in * {
+    margin-bottom: 10px;
+}
